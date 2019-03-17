@@ -1,0 +1,108 @@
+/*
+the css file for the web
+writer: Hao Zhang
+*/
+
+body {
+    background-image: url(images/background.jpg);
+    /*background-color: pink;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+
+#location {
+    color: white;
+    font-size: 32px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#button {
+    width: 47%;
+    margin-left: 27.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#leftButton {
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 42px;
+}
+
+#rightButton {
+    margin-top: 50px;
+    margin-right: 30px;
+    height: 42px;
+}
+
+#weatherIcon {
+    height: 120px;
+}
+
+#mainTemp {
+    font-size: 52px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 48.5%;
+}
+
+#tempInterval {
+    font-size: 20px;
+    color: white;
+    margin-left: 48%;
+}
+
+#weatherDescription {
+    font-size: 20px;
+    color: white;
+    margin-left: 35px;
+    text-align: center;
+}
+
+#separator {
+    color: white;
+    width: 50%;
+    margin-left: 27.5%;
+    margin-top: 40px;
+}
+
+#weekdayWeather {
+    color: white;
+    width: 50%;
+    margin-left: 27.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#monday {
+    height: 50px;
+    position: relative;
+    left: -13px;
+}
+
+#tuesday {
+    height: 50px;
+    position: relative;
+    left: -13px;
+}
+
+#wednesday {
+    height: 50px;
+    position: relative;
+    left: -13px;
+}
+
+#thursday {
+    height: 50px;
+    position: relative;
+    left: -13px;
+}
+
+#friday {
+    height: 50px;
+    position: relative;
+    left: -13px;
+}
